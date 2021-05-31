@@ -1,11 +1,12 @@
-dt:
-  config:
-    feign:
-      properties:
-        defaults:
-          enabled: true
-          interval: 10
-          name: some-service
 eureka:
   instance:
     expire-duration: 0
+dt:
+  config:
+    multitenant:
+      feign:
+        properties:
+          defaults:
+            enabled: true
+            interval: 10
+            name: some-service
