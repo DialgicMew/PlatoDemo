@@ -13,7 +13,7 @@ dt:
           defaults:
             enabled: true
             interval: 10
-            name: some-service
+            name: different-service
 eureka:
   instance:
     expire-duration: 5

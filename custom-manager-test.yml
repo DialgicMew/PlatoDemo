@@ -5,6 +5,7 @@ dt:
         supportedTenants:
           - pl
           - cz
+          - in
           - ab
       feign:
         properties:

@@ -14,6 +14,3 @@ dt:
             enabled: true
             interval: 10
             name: some-service
-eureka:
-  instance:
-    expire-duration: 0
