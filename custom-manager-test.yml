@@ -1,16 +1,1 @@
-dt:
-  config:
-    multitenant:
-      tenant:
-        supportedTenants:
-          - pl
-          - cz
-          - ab
-      feign:
-        properties:
-          defaults:
-            enabled: true
-            name: some-service
-eureka:
-  instance:
-    expire-duration: 0
+ab: main
